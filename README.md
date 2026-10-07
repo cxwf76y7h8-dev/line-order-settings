@@ -2,16 +2,18 @@
 
 公式LINEから入力した注文をAIで仕分けし、Googleスプレッドシートへ転記するシステムのWindows配布版です。
 
-[Windows配布版をダウンロード（ZIP・約93MB）](https://github.com/cxwf76y7h8-dev/line-order-settings/releases/download/2026.10.08.8/line-order-settings-windows.zip)
+[Windowsセットアップをダウンロード（EXE・約93MB）](https://github.com/cxwf76y7h8-dev/line-order-settings/releases/download/2026.10.08.8/line-order-settings-setup.exe)
 
 [最新版の配布ページ](https://github.com/cxwf76y7h8-dev/line-order-settings/releases/latest)
 
 ## 導入方法
 
-1. ZIPをダウンロードして展開します。
-2. 展開したフォルダー内の `Install.cmd` をダブルクリックします。
-3. 自分のCloudflareアカウントで初回導入します。
-4. LINE・OpenAI・Googleスプレッドシートの接続情報を設定します。
+1. `line-order-settings-setup.exe` をダウンロードし、ダブルクリックします。
+2. 自動で展開・インストールされ、デスクトップに「LINE注文 接続設定」アイコンが作成されます。インストール後は設定画面が開きます。
+3. 次回からはデスクトップのアイコンをダブルクリックして開けます。
+4. 初回は自分のCloudflareアカウントで導入し、LINE・OpenAI・Googleスプレッドシートの接続情報を設定します。
+
+ZIPの手動展開やNode.jsの別途インストール、管理者権限は不要です。セットアップEXEは未署名です。
 
 配布ファイルに個人のAPIキー、接続情報、注文データは含まれていません。接続先サービスは利用者自身のアカウントで設定します。
 
